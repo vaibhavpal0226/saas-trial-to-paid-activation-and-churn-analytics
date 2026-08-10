@@ -1,8 +1,8 @@
-# 📈 SaaS Trial-to-Paid Activation & Churn Analytics
+# 📊 SaaS Trial-to-Paid Activation & Churn Analytics
 
 An end-to-end data analytics project diagnosing trial conversion drivers, onboarding bottlenecks, product friction, and support SLAs across **500 enterprise trial accounts** over a strict 14-day window.
 
-* 📜 **Detailed Project Analysis:** [Click here to view the Full Project Report (PDF)]()
+* 📜 **Detailed Project Analysis:** [Click here to view the Full Project Report (PDF)](https://github.com/vaibhavpal0226/saas-trial-to-paid-activation-and-churn-analytics/blob/main/SaaS_Trial_to_Paid_Activation_%26_Churn_Analytics.pdf)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
@@ -31,7 +31,7 @@ An end-to-end data analytics project diagnosing trial conversion drivers, onboar
 ---
 <h2 id="project-overview">🎯 Project Overview</h2>
 
-A B2B SaaS platform experienced flatlining trial conversion rates (~31.60%). This project delivers a comprehensive analytical framework combining **feature engineering**, **SciPy statistical hypothesis testing**, and an interactive **2-page Power BI executive dashboard** to identify high-leverage activation milestones and mitigate churn risk.
+A B2B SaaS platform experienced flatlining trial conversion rates (~31.60%). This project delivers a comprehensive analytical framework combining **feature engineering**, **statistical hypothesis testing**, and an interactive **2-page Power BI executive dashboard** to identify high-leverage activation milestones and mitigate churn risk.
 
 ---
 
@@ -44,10 +44,10 @@ A SaaS company is experiencing significant drop-offs between free trial signup a
 <h2 id="dataset-information">📊 Dataset Information</h2>
 
 The underlying database consists of 4 relational tables tracking **500 accounts**:
-* `df_accounts`: Firmographic attributes (industry, plan tier, referral source).
-* `df_subscriptions`: Trial lifecycle timestamps and conversion flags (`converted_to_paid`).
-* `df_feature_usage`: Event-level logs (clicks, active time in minutes, error counts across features).
-* `df_support_tickets`: Support logs (resolution speed, SLA compliance, CSAT scores, survey flags).
+* `df_accounts`: Customer metadata, signup dates, industry verticals, and acquisition channels.
+* `df_subscriptions`: Subscription lifecycles, plan tiers (Basic, Pro, Enterprise), trial flags, and revenue (MRR).
+* `df_feature_usage`: Daily product interaction logs, click counts, session durations, and error events. 
+* `df_support_tickets`: Ticket submission logs, first response times, resolution durations, and CSAT scores. 
 * **Source:** [SaaS Subscription & Churn Analytics Dataset by RIVER](https://www.kaggle.com/datasets/rivalytics/saas-subscription-and-churn-analytics-dataset)
 
 ---
@@ -128,10 +128,15 @@ Hypothesis | Test Applied | P-Value	| Business Insight
 
 Built a 2-page interactive dashboard:
 
-🔹 Conversion Drivers
-   * Baseline Conversion Rate: 31.60%, Day-1 Activated Conversion Rate: 40.77%, Avg Active Session Duration: 28.0 mins 
-🔹 Friction & Churn Risk
-   * Ticket Churn Risk: 80.00%, Prompt SLA Lift: 22.88%, Top High-Risk Feature: feature_20
+* **🔹 Conversion Drivers**
+  * **Baseline Conversion Rate:** 31.60%
+  * **Day-1 Activated Conversion Rate:** 40.77%
+  * **Avg Active Session Duration:** 28.0 mins
+
+* **🔹 Friction & Churn Risk**
+  * **Ticket Churn Risk:** 80.00%
+  * **Prompt SLA Lift:** 22.88%
+  * **Top High-Risk Feature:** `feature_20`
 
 ---
 
@@ -176,7 +181,7 @@ toward high-intent Organic and Paid Search channels.
 
 <h2 id="detailed-report">📄 Detailed Findings Report</h2>
 
-*For a detailed breakdown of the findings, please refer to the [SaaS_Trial_to_Paid_Activation_&_Churn_Analytics]().*
+*For a detailed breakdown of the findings, please refer to the [SaaS_Trial_to_Paid_Activation_&_Churn_Analytics](https://github.com/vaibhavpal0226/saas-trial-to-paid-activation-and-churn-analytics/blob/main/SaaS_Trial_to_Paid_Activation_%26_Churn_Analytics.pdf).*
 
 ---
 
