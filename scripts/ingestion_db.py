@@ -5,7 +5,7 @@ import logging
 from sqlalchemy import create_engine
 
 # Logging & Configuration
-log_directory = r'D:\Visualization_and_Programming\Projects\SaaS_Free_Trial_Paid_Conversion_Drop\logs'
+log_directory = r'D:\Visualization_and_Programming\Projects\saas_trial_to_paid_activation_and_churn_analytics\logs'
 log_file = os.path.join(log_directory, 'ingestion_db.log')
 
 if not os.path.exists(log_directory):
@@ -68,5 +68,5 @@ def load_raw_data(folder_path):
 
 if __name__ == '__main__':
     
-    target_folder = r'D:\Visualization_and_Programming\Projects\SaaS_Free_Trial_Paid_Conversion_Drop\data'
+    target_folder = r'D:\Visualization_and_Programming\Projects\saas_trial_to_paid_activation_and_churn_analytics\data'
     load_raw_data(target_folder)
