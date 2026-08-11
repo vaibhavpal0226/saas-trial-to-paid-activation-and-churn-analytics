@@ -104,7 +104,7 @@ The underlying database consists of 4 relational tables tracking **500 accounts*
    * distinct_features_tried: Out of the 40 tools available, this counts how many different features they experimented with.  
    * total_errors_encountered: The total number of system errors or software bugs the user hit in their first 7 days. 
 
-<h3 id="phase-2-eda-statistical-testing">🧪 Phase 2: Exploratory Data Analysis (EDA) & Hypothesis Testing</h3>
+<h3 id="phase-2-eda">🧪 Phase 2: Exploratory Data Analysis (EDA) & Hypothesis Testing</h3>
 
 * Answered business questions like:
    * What is the fundamental trial-to-paid conversion baseline for the platform? 
