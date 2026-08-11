@@ -114,14 +114,14 @@ The underlying database consists of 4 relational tables tracking **500 accounts*
 
 * Statistical Testing & Methodology
 
-Hypothesis | Test Applied | P-Value	| Business Insight
-| :--- | :--- | :--- | :--- |
-| Week 1 vs. Week 2 Usage Drop-off	| Paired T-Test | P=0.9537	| Failed to reject H_0. Non-converters stay flat and inactive across both weeks rather than losing steam over time. |
-| High Usage Intensity Drives Conversion	| Mann-Whitney U	| P=0.0036	| Reject H_0. Converters log significantly higher session duration (28.0 mins vs 19.3 mins). |
-| Technical Errors Drive Churn	| Mann-Whitney U	| P=0.0196	| Error Paradox: Converters hit more errors because high-intent power users explore deeper, whereas churned users log off before hitting errors. |
-| Support Delays Drive Conversion Loss | Mann-Whitney U	| P=0.2416	| Failed to reject H_0. Support resolution delays are not significantly higher for non-converters. Ticket creation itself is the friction event. |
-| Support Response Delay vs CSAT | Pearson r | r=-0.0717 (P=0.7336)	| No correlation between response speed and CSAT score. Resolution quality matters far more than raw response time.|
-| Survey Avoidance Correlates with Churn	| Chi-Square (χ^2) | P=0.6400	| Failed to reject H_0. Skipping feedback surveys is neutral and does not indicate churn intent. |
+   Hypothesis | Test Applied | P-Value	| Business Insight
+   | :--- | :--- | :--- | :--- |
+   | Week 1 vs. Week 2 Usage Drop-off	| Paired T-Test | P=0.9537	| Failed to reject H_0. Non-converters stay flat and inactive across both weeks rather than losing steam over time. |
+   | High Usage Intensity Drives Conversion	| Mann-Whitney U	| P=0.0036	| Reject H_0. Converters log significantly higher session duration (28.0 mins vs 19.3 mins). |
+   | Technical Errors Drive Churn	| Mann-Whitney U	| P=0.0196	| Error Paradox: Converters hit more errors because high-intent power users explore deeper, whereas churned users log off before hitting errors. |
+   | Support Delays Drive Conversion Loss | Mann-Whitney U	| P=0.2416	| Failed to reject H_0. Support resolution delays are not significantly higher for non-converters. Ticket creation itself is the friction event. |
+   | Support Response Delay vs CSAT | Pearson r | r=-0.0717 (P=0.7336)	| No correlation between response speed and CSAT score. Resolution quality matters far more than raw response time.|
+   | Survey Avoidance Correlates with Churn	| Chi-Square (χ^2) | P=0.6400	| Failed to reject H_0. Skipping feedback surveys is neutral and does not indicate churn intent. |
 
 
 <h3 id="phase-3-powerbi">📊 Phase 3: Power BI Storytelling</h3>
